@@ -1,0 +1,20 @@
+{
+  "name": "streamfit",
+  "version": "1.0.0",
+  "description": "Plataforma de Exercícios e Treinos",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "prisma": "^7.8.0"
+  }
+}
